@@ -3,6 +3,7 @@
 
 function encriptar() {
 	var texto = document.getElementById("inputTexto").value.toLowerCase();
+    inputTexto.value = "";
 	
 	var txtCifrado = texto.replace(/e/igm, "enter");
 	var txtCifrado = txtCifrado.replace(/o/igm, "ober");
